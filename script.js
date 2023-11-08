@@ -30,3 +30,25 @@ console.assert(arr.length === 8)
 
 // --------------- Oppgave 1.1 ---------------
 console.log('dette er index 5: ' + arr[5])
+
+
+// --------------- Oppgave 2 ---------------
+
+arr_obj = [
+    {key: 'value1',
+        key2: 'value2',
+        key3: 'value3'}, 
+
+    {lastKey: 'lastValue1',
+        lastKey2: 'lastValue2',
+        lastKey3: 'lastValue3',
+        hobby: ['fotball', 'basketball', 'volleyball']
+
+    }
+]
+
+console.log('Printing object to console')
+console.log(arr_obj[0])
+console.log(arr_obj[1])
+
+// --------------- Oppgave 3 ---------------
