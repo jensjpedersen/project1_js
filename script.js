@@ -25,3 +25,8 @@ console.log(arr.length)
 
 console.log(`Fjernet index 5 og 7: ${arr}`)
 console.assert(arr.length === 8)
+
+
+
+// --------------- Oppgave 1.1 ---------------
+console.log('dette er index 5: ' + arr[5])
