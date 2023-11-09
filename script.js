@@ -17,9 +17,9 @@ console.log(arr.push('j'));
 
 
 console.log("Remove index 5 og index 7");
-console.log(arr.splice(5,1));
-console.log(arr.length);
 console.log(arr.splice(7,1));
+console.log(arr.length);
+console.log(arr.splice(5,1));
 console.log(arr.length);
 
 
