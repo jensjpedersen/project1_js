@@ -52,3 +52,33 @@ console.log(arr_obj[0])
 console.log(arr_obj[1])
 
 // --------------- Oppgave 3 ---------------
+
+
+
+
+let valid=['student', 'voksen', 'barn']
+let randomChoice = valid[Math.floor(Math.random() * valid.length)] 
+
+let priser = {student: 100, voksen: 150, barn: 50}
+
+console.log(randomChoice)
+
+if ( randomChoice == 'student' ) {
+    console.log(`Hei, du er student og må betale ${priser.student}kr`);
+} else if ( randomChoice == 'voksen' ) {
+    console.log(`Voksen bilett koster: ${priser.voksen}kr`);
+} else if ( randomChoice == 'barn' ) {
+    console.log(`Du er et barn og må betale: ${priser.barn}kr`);
+} else {
+    console.log('Du er ikke et menneske')
+}
+
+
+// --------------- Oppgave 4 ---------------
+
+
+
+
+
+
+
